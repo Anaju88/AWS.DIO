@@ -1,0 +1,7 @@
+*Descrição correta sobre a funcionalidade do Route 53: Faz a ligação entre acessos externos e a estrutura interna da AWS por meio do DNS.
+
+*O Route 53 pode ser utilizado para criar regras que direcionam diferentes tipos de tráfego para diferentes endpoints ou serviços.
+
+*Funcionalidades dou Route 53: Gerenciar políticas de tráfego de rede // Registrar domínios // Transferir domínios.
+
+*O Route 53 pode fazer a resolução de endpoints e direcionar o tráfego para diferentes IPs, conforme configuração
