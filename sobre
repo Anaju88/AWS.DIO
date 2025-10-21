@@ -1,0 +1,29 @@
+1. EC2 (Elastic Compute Cloud)
+O que é: O EC2 fornece capacidade de computação redimensionável na nuvem. Essencialmente, ele permite que você alugue máquinas virtuais (chamadas Instâncias) no ambiente da AWS.
+
+Função: É o "computador" virtual onde seu código de aplicação realmente roda. Você pode escolher o sistema operacional, a quantidade de memória, o poder de processamento, etc.
+
+Em termos simples: É o servidor ou a máquina virtual que hospeda sua aplicação.
+
+2. S3 (Simple Storage Service)
+O que é: O S3 é um serviço de armazenamento de objetos altamente durável e escalável. Ele é usado para armazenar arquivos (como imagens, vídeos, backups, arquivos estáticos de um site, e também os pacotes de código da sua aplicação).
+
+Função:
+No contexto de Elastic Beanstalk o S3 é usado para armazenar o pacote de código da sua aplicação antes de ele ser implantado nas instâncias EC2.Também pode ser usado para armazenar ativos estáticos (como imagens e CSS/JavaScript) que sua aplicação acessa.
+
+Em termos simples: É um disco rígido virtual muito grande e seguro para armazenar seus arquivos.
+
+Amazon Glacier, que agora é oficialmente parte do Amazon S3 (Simple Storage Service) e é referido como uma Classe de Armazenamento S3 Glacier, é um serviço de armazenamento em nuvem projetado especificamente para arquivamento de dados a longo prazo. Ele é a opção mais econômica da AWS para guardar grandes volumes de dados que você não precisa acessar com frequência, como backups antigos, dados de conformidade regulatória ou material de preservação digital.
+3. EB (Elastic Beanstalk)
+O que é: O Elastic Beanstalk é um serviço de plataforma como serviço (PaaS). Ele simplifica a implantação e o gerenciamento de aplicações na AWS, permitindo que você se concentre no código, e não na infraestrutura.
+
+Função: Você envia seu código (que o EB armazena no S3), e o Elastic Beanstalk automaticamente provisiona e gerencia todos os recursos da AWS necessários para executar sua aplicação, como:
+
+Instâncias EC2 (os servidores).
+
+Balanceadores de Carga (Load Balancers) para distribuir o tráfego.
+
+Auto Scaling para aumentar ou diminuir o número de instâncias EC2 conforme a demanda.
+
+Em termos simples: É o gerente automatizado que pega seu código (do S3) e configura toda a infraestrutura (usando EC2, Balanceadores de Carga, etc.) para rodá-lo, escalá-lo e monitorá-lo.
+
