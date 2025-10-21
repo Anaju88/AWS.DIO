@@ -1,0 +1,5 @@
+O Amazon CloudFront é um serviço de Rede de Entrega de Conteúdo (CDN - Content Delivery Network) gerenciado pela AWS. Sua principal finalidade é entregar conteúdo (como arquivos estáticos, vídeos, APIs, ou conteúdo dinâmico) aos usuários de forma rápida, segura e com baixa latência em qualquer lugar do mundo.
+
+* Para que o CloudFront funcione plenamente na distribuição global de conteúdo, é necessário:Configurar corretamente os serviços de origem, como buckets do S3 ou instâncias EC2.
+
+* Ao utilizar o CloudFront, o conteúdo de um site pode ser entregue ao usuário a partir de: Uma região próxima ao usuário, reduzindo a latência.
