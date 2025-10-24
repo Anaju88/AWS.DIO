@@ -11,3 +11,11 @@ VPC - Virtual Private Cloud
  
  AMAZON VPC:
  Solução que permite utilizar recursos da AWS através de uma rede lógica. Possibiita a criação de sub-redes em diferentes zonas de disponibilidade
+
+
+
+SUBNET
+*É uma gama de endereços IP na VPC e uma sub rede lógica criada dentro de uma rede virtual da AWS. Cada sub rede precisa residir inteiramente dentro de uma zona de disponibilidade. 
+
+*Dentro de Subnets são criados os grupos de segurança (Secutiry Group) 
+
