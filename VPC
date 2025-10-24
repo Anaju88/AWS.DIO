@@ -1,0 +1,13 @@
+Redes na AWS - 
+VPC - Virtual Private Cloud
+
+* A Subnet esta dentro da VPC (seriam as ruas do subnet (subnet seria o bairro)
+* Amazon Security Group - Define os acessos e regras
+* Route 53 - Faz a ligação do externo p/ interno
+* Amazon CloudFront - Serviço que realiza a entrega do conteúdo através da redes da AWS - permite o acesso em diferentes lugares
+* EBL (Elastic Load Balancer) Balanceador de carga que transfere a carga
+
+
+ 
+ AMAZON VPC:
+ Solução que permite utilizar recursos da AWS através de uma rede lógica. Possibiita a criação de sub-redes em diferentes zonas de disponibilidade
