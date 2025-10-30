@@ -1,0 +1,1 @@
+*É um processo que auxilia na automação de criação de recursos na AWS, por meio de templates JSON ou  YAML. Os templates podem ser utilizados quantas vezes for necessário, e os pagamentos são feitos apenas pelas stacks criadas. 
