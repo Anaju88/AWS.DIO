@@ -1,0 +1,15 @@
+Desafio de Projeto IaC: Automação na AWS com CloudFormation
+Este repositório é dedicado a um Desafio de Projeto focado em Infraestrutura como Código (IaC) na Amazon Web Services (AWS) utilizando o AWS CloudFormation.
+
+O objetivo é dominar a criação, o provisionamento e o gerenciamento de recursos da AWS de forma automatizada, repetível e segura, utilizando templates declarativos em YAML.
+
+🌟 O que Você Vai Aprender/Praticar
+Fundamentos de IaC: Tratar a infraestrutura como código versionável no Git.
+
+Modelagem com CloudFormation: Escrever templates em YAML para definir a arquitetura da AWS.
+
+Gestão de Pilhas (Stacks): Criar e atualizar conjuntos de recursos da AWS como uma única unidade lógica.
+
+Versionamento e Rollback: Garantir que o histórico de mudanças da infraestrutura seja rastreável e que reversões sejam possíveis.
+
+Modularidade: Utilizar Nested Stacks para criar módulos de infraestrutura reutilizáveis (ex: Rede, Segurança).
